@@ -1,0 +1,419 @@
+/* Header style */
+.header {
+    background: linear-gradient(135deg, #0b2545, #13315c);
+    color: white;
+    padding: 50px 20px 30px;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.header-left,
+.header-right {
+    flex: 1;
+    min-width: 180px;
+}
+
+.header-left {
+    margin-top: 6px;
+}
+
+.header-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+}
+
+.header-left h1,
+.header-right .name {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+    color: #ffffff;
+}
+
+.header-left h1 {
+    font-weight: 600;
+}
+
+.header-left h2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 6px;
+    color: #dbe7ff;
+}
+
+.header-contact {
+    font-size: 14px;
+    color: #dbe7ff;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+    margin-top: 4px;
+}
+
+.header-contact a {
+    color: #dbe7ff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.header-contact a:hover {
+    color: #ffffff;
+}
+
+.profile-pic {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ffffffcc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.contact-summary {
+    margin-top: 25px;
+    font-size: 14px;
+    color: #dbe7ff;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/* Navigation bar style */
+.nav-wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.nav-tabs {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin-bottom: 15px;
+    /*20px;*/
+    gap: 0px;
+}
+
+.tab-button {
+    flex: 1;
+    max-width: 300px;
+    background: none;
+    border: none;
+    padding: 12px 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #003366;
+    position: relative;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    box-shadow: none;
+}
+
+.tab-button:not(.active)::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) scaleX(0);
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    transition: transform 0.3s ease;
+    transform-origin: center;
+}
+
+.tab-button:not(.active):hover::after {
+    transform: translateX(-50%) scaleX(1);
+}
+
+.tab-button.active {
+    border-bottom: 2px solid #003366;
+    font-weight: 600;
+}
+
+/* Content style */
+body {
+    font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.main-content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tab-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    display: none;
+}
+
+.tab-section.active {
+    display: flex; /* Réaffirme display ici aussi */
+    opacity: 1;
+}
+
+.tab-section section + section {
+    border-top: 1px solid #ccc;
+    padding-top: 0;
+}
+
+.section-title {
+    font-weight: 600;
+}
+
+.experience,
+.education {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+    gap: 1.2rem;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    flex-shrink: 0;
+    margin-top: 4px;
+}
+
+/* + */
+.details h3 {
+    font-size: 18px;
+    font-weight: normal;
+    margin: 2px 0;
+    color: #111;
+}
+
+/* + */
+.details p {
+    font-size: 15px;
+    color: #111;
+    margin: 2px 0;
+    line-height: 1.4;
+}
+
+.details .job-title,
+.details .institution {
+    font-weight: 600;
+}
+
+/* + */
+.education .qualification {
+    display: block;
+    font-size: 18px;
+    font-weight: normal;
+    color: #111;
+    margin-bottom: 2px;
+}
+
+.details .period,
+.details .location {
+    color: #666;
+}
+
+.details .description {
+    margin-top: 8px;
+    /*5px;*/
+    line-height: 1.5;
+}
+
+.details .skills {
+    margin-top: 6px;
+    /*3px;*/
+    font-size: 15px;
+    color: #111;
+    font-weight: 600;
+}
+
+/* Portfolio section */
+
+.project {
+  border-bottom: 1px solid #ccc;
+  padding: 12px 0;
+}
+
+.project-title {
+  width: 100%;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 600;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px 0;
+  transition: color 0.3s ease;
+}
+
+.project-title:hover {
+  color: #003366;
+}
+
+.project-details {
+  display: none;
+  padding-top: 10px;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.project-details.open {
+  display: block;
+}
+
+.project-video iframe {
+  width: 100%;
+  height: 315px;
+  max-width: 640px;
+  margin-top: 10px;
+}
+
+.project-tech {
+  list-style: disc;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.project-github {
+  margin-top: 12px;
+}
+
+.project-github a {
+  color: #111;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.project-github a:hover {
+  color: #003366;
+  text-decoration: underline;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer style */
+.contact-footer {
+    background: linear-gradient(135deg, #0b2545, #13315c);
+    color: #fff;
+    padding: 30px 20px 40px;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer-title {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.footer-links p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.footer-links a {
+    color: #dbe7ff;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: color 0.3s ease;
+    margin: 0 6px;
+}
+
+.footer-links a:hover {
+    color: #ffffff;
+}
+
+/* Screen adjustment */
+@media screen and (max-width: 600px) {
+    .header-content {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .header-left,
+    .header-right {
+        width: 100%;
+        margin: 0;
+    }
+
+    .header-left h1,
+    .header-right .name {
+        font-size: 20px;
+    }
+
+    .header-left h2 {
+        font-size: 16px;
+    }
+
+    .profile-pic {
+        width: 110px;
+        height: 110px;
+    }
+
+    .contact-summary {
+        flex-direction: column;
+        gap: 6px;
+        text-align: center;
+    }
+
+    .main-content {
+        padding: 16px;
+    }
+}
