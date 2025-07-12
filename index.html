@@ -4,430 +4,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Valentine Vandervoort - Data & Sport Analyst</title> <!-- Ce qui s'affiche dans l'onglet du navigateur -->
+    <title>Valentine Vandervoort</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
         integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="assets/css/style.css"> <!-- Lien vers le fichier CSS pour le design -->
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <header class="header"> <!-- Header -->
+    <!-- Header Section -->
+    <header class="header">
         <div class="header-content">
-            <div class="header-left"> <!-- Job title & period -->
-                <h1>Stage Data & Sport Analyst</h1>
-                <h2>de février à août 2026</h2>
+            <div class="header-left">
+                <h1 id="header-job-title"></h1>
+                <h2 id="header-period-title"></h2>
             </div>
 
-            <a href="https://www.linkedin.com/in/valentine-vandervoort/" target="_blank"><img src="assets/img/photo-cv.png" alt="Profile Picture"
-                    class="profile-pic"></a> <!-- Profile picture -->
+            <a id="linkedin-profile-link" target="_blank">
+                <img id="profile-pic" class="profile-pic" alt="Photo de profil">
+            </a>
 
-            <div class="header-right"> <!-- Name & Contact -->
-                <h2 class="name">Valentine Vandervoort</h2>
-                <div class="header-contact"><a
-                        href="mailto:valentine.2vandervoort@gmail.com">valentine.2vandervoort@gmail.com</a>
-                    <a href="tel:+33629126016">+33 6 29 12 60 16</a>
+            <div class="header-right">
+                <h2 id="name" class="name"></h2>
+                <div class="header-contact">
+                    <a id="mail"></a>
+                    <a id="phone"></a>
                 </div>
             </div>
         </div>
 
         <div class="contact-summary">
-            <span>Île-de-France</span> · <span>21 ans</span> · <span>Permis B</span>
+            <span id="location"></span>
+            <span class="separator"> · </span>
+            <span id="age"></span>
+            <span class="separator"> · </span>
+            <span id="driving-license"></span>
+        </div>
+        
+        <div class="language-selector">
+            <button id="lang-fr" class="lang-btn active">FR</button>
+            <button id="lang-en" class="lang-btn">EN</button>
         </div>
     </header>
 
-    <div class="nav-wrapper"> <!-- Button CV & Portfolio -->
+    <!-- Navigation -->
+    <div class="nav-wrapper">
         <nav class="nav-tabs">
-            <button class="tab-button active" data-target="cv-section">CV</button>
-            <button class="tab-button" data-target="portfolio-section">Portfolio</button>
+            <button id="cv-section-button" class="tab-button active" data-target="cv-section"></button>
+            <button id="portfolio-section-button" class="tab-button" data-target="portfolio-section"></button>
         </nav>
     </div>
 
+    <!-- Main Content -->
     <main class="main-content">
-        <section id="cv-section" class="tab-section active"> <!-- CV section -->
-            <section> <!-- About / Info section -->
-                <p>Animée par le sport depuis toujours, j’en apprécie autant la pratique que les valeurs qu’il véhicule.
-                    Depuis deux ans, je m’y consacre de manière plus intensive, ce qui m'a donné envie de
-                    m’orienter professionnellement dans ce domaine où je me sens bien.<br><br>
-                    Je suis actuellement en dernière année d'école d’ingénieur, et mon objectif est de pouvoir allier
-                    mes compétences techniques avec ma passion du sport. C’est pourquoi je suis à la recherche d’un
-                    <strong>stage de fin d’études, de février à août 2026, dans le domaine de l’analyse de données
-                        appliquée au sport.</strong><br><br>
-                    Idéalement, je souhaiterais participer au suivi de la performance des athlètes, à l'optimisation de
-                    leur préparation physique et à l'ajustement de la récupération. Les données constituent aujourd'hui
-                    une réelle
-                    plus-value pour les sciences du sport, et je serais ravie de les exploiter pour améliorer le
-                    bien-être et les performances des sportifs.
-                </p>
+        <!-- CV Section -->
+        <section id="cv-section" class="tab-section active">
+            <section>
+                <p id="about"></p>
             </section>
-            <section> <!-- Jobs section -->
-                <h2 class="section-title">Expériences professionnelles</h2>
-                <div class="experience"> <!-- accure - Junior cloud architect -->
-                    <a href="https://accure.fr/" target="_blank"><img src="assets/img/logo-accure.jpeg"
-                            alt="Logo accure" class="logo"></a>
-                    <div class="details">
-                        <h3><span class="job-title">Architecte cloud junior</span> – <span class="company">accure</span>
-                        </h3>
-                        <p>
-                            <span class="period">Avril 2025 – Août 2025</span> · <span class="location">Paris,
-                                France</span>
-                        </p>
-                        <p class="description">
-                            Construction d'une plateforme data sur un cloud 100% souverain.
-                        </p>
-                        <p class="skills">
-                            Terraform
-                        </p>
-                    </div>
-                </div>
-                <div class="experience"> <!-- ALDV - Auxiliaire de la vie asso -->
-                    <a href="https://www.devinci.fr/" target="_blank"><img src="assets/img/logo-de-vinci.png"
-                            alt="Logo De Vinci Black Background" class="logo"></a>
-                    <div class="details">
-                        <h3><span class="job-title">Auxiliaire de la Vie Associative</span> – <span class="company">Pôle
-                                Léonard de Vinci</span></h3>
-                        <p>
-                            <span class="period">Mai 2024 – Avril 2025</span> · <span class="location">Courbevoie,
-                                France</span>
-                        </p>
-                        <p class="description">
-                            Appuyer le service de la vie associative sur la gestion administrative des 61
-                            associations,
-                            l'organisation des événements et des formations.<br>
-                            Gestion de la répartition des événements associatifs de 60 associations.<br>
-                            Assurer la communication quotidienne, le suivi administratif et le lien opérationnel
-                            avec
-                            les 60
-                            associations.<br>
-                            Organisation d’un séminaire de formation sur deux jours à destination des nouveaux
-                            bureaux
-                            associatifs (250 participants).<br>
-                            Coordination de la journée d’intégration rassemblant plus de 1 000 participants.<br>
-                            Conception et réalisation de supports visuels et graphiques.<br>
-                            Déploiement d’un nouveau canal de communication entre le service de la vie associative
-                            et
-                            les
-                            associations afin d’optimiser les échanges et fluidifier les processus.<br>
-                            Maintien et mise à jour du SharePoint dédié à la vie associative.
-                        </p>
-                        <p class="skills">
-                            Gestion d'événements, Rédaction, Sens de l'organisation, Adaptabilité
-                        </p>
-                    </div>
-                </div>
-                <div class="experience"> <!-- ATT - Web development intern -->
-                    <a href="https://advancedtrackandtrace.com/" target="_blank"><img
-                            src="assets/img/logo-advanced-track-trace.jpeg" alt="Logo Advanced Track & Trace"
-                            class="logo"></a>
-                    <div class="details">
-                        <h3><span class="job-title">Stagiaire en développement Web</span> – <span
-                                class="company">Advanced Track & Trace</span></h3>
-                        <p>
-                            <span class="period">Juin 2023 – Août 2023</span> · <span class="location">Rueil-Malmaison,
-                                France</span>
-                        </p>
-                        <p class="description">
-                            Mise en place d’une plate-forme web d’import des valeurs nutritionnelles dans le domaine des
-                            vins et spiritueux.
-                        </p>
-                        <p class="skills">
-                            C#, Microsoft SQL Server, Blazor, Entity Framework
-                        </p>
-                    </div>
-                </div>
+            
+            <section>
+                <h2 id="experience-section-title" class="section-title"></h2>
+                <div id="experience-container"></div>
             </section>
-            <section> <!-- Education section -->
-                <h2 class="section-title">Formations</h2>
-                <div class="education"> <!-- ESILV -->
-                    <a href="https://www.esilv.fr/" target="_blank"><img src="assets/img/logo-esilv.png"
-                            alt="Logo ESILV" class="logo"></a>
-                    <div class="details">
-                        <h3><span class="institution">ESILV - Ecole Supérieure d'Ingénieurs Léonard de Vinci</span>
-                        </h3>
-                        <p><span class="qualification">Diplôme d'ingénieur généraliste - Majeure Cloud computing &
-                                Cybersécurité - Parcours UX Design</span></p>
-                        <p>
-                            <span class="period">Septembre 2021 – Août 2026</span> · <span class="location">Courbevoie,
-                                France</span>
-                        </p>
-                        <p class="description">
-                        </p>
-                        <p class="skills">
-                            C#, C++, MySQL, NoSQL, Jave, Javascript, Python, Travail d'équipe, Gestion de projet
-                        </p>
-                    </div>
-                </div>
-                <div class="education"> <!-- Uni Padova -->
-                    <a href="https://www.unipd.it/" target="_blank"><img src="assets/img/logo-unipd.png"
-                            alt="Logo Università degli Studi di Padova" class="logo"></a>
-                    <div class="details">
-                        <h3><span class="institution">Università degli Studi di Padova</span></h3>
-                        <p><span class="qualification">Semestre à l'international</span></p>
-                        <p>
-                            <span class="period">Septembre 2025 – Février 2026</span> · <span class="location">Padoue,
-                                Italie</span>
-                        </p>
-                        <p class="description">
-                        </p>
-                        <p class="skills">
-                        </p>
-                    </div>
-                </div>
-                <div class="education"> <!-- Varna University of Management -->
-                    <a href="https://vum.bg/" target="_blank"><img src="assets/img/logo-vum.png"
-                            alt="Logo Varna University of Management" class="logo"></a>
-                    <div class="details">
-                        <h3><span class="institution">Varna University of Management</span></h3>
-                        <p><span class="qualification">Semestre à l'international</span></p>
-                        <p>
-                            <span class="period">Septembre 2023 – Janvier 2024</span> · <span class="location">Varna,
-                                Bulgarie</span>
-                        </p>
-                        <p class="description">
-                            Courses attended :<br>
-                            Data Structures And Algorithms II<br>
-                            Computational Intelligence<br>
-                            Research Methods for Computing and IS<br>
-                            Economics
-                        </p>
-                        <p class="skills">
-                        </p>
-                    </div>
-                </div>
+            
+            <section>
+                <h2 id="education-section-title" class="section-title"></h2>
+                <div id="education-container"></div>
             </section>
-            <section> <!-- Volunteering section -->
-                <h2 class="section-title">Expériences associatives</h2>
-                <div class="experience"> <!-- Poletech - Secretary -->
-                    <a href="https://poletech.fr/" target="_blank"><img src="assets/img/logo-poletech.png"
-                            alt="Logo Poletech" class="logo"></a>
-                    <div class="details">
-                        <h3><span class="job-title">Secrétaire</span> – <span class="company">Poletech</span>
-                        </h3>
-                        <p>
-                            <span class="period">Avril 2022 – Juin 2023</span> · <span class="location">Courbevoie,
-                                France</span>
-                        </p>
-                        <p class="description">
-                            Organisation des couvertures photo et vidéo d'évènements. Veiller à la bonne mise en place
-                            des moyens matériel et humain et gérer ceux-ci.<br>
-                            Echanges avec la vie associative, les autres associations du pôle et des entreprises.<br>
-                            Mise en place des recrutements.<br>
-                            Faire passer des entretiens.<br>
-                            Aide à l'organisation de week-ends de cohésion pour 60 personnes.<br>
-                            Communication avec l'ensemble du bureau, une équipe composée de dix personnes, pour mener à
-                            bien nos missions et que tout le monde reste informé.
-                        </p>
-                        <p class="skills">
-                            Organisation, Gestion de moyens humain et matériel, Rédaction, Communication, Travail
-                            d'équipe
-                        </p>
-                    </div>
-                </div>
-                <div class="experience"> <!-- Poletech - Photographer -->
-                    <a href="https://poletech.fr/" target="_blank"><img src="assets/img/logo-poletech.png"
-                            alt="Logo Poletech" class="logo"></a>
-                    <div class="details">
-                        <h3><span class="job-title">Photographe</span> – <span class="company">Poletech</span></h3>
-                        <p>
-                            <span class="period">Octobre 2021 – Août 2026</span> · <span class="location">Courbevoie,
-                                France</span>
-                        </p>
-                        <p class="description">
-                            Couvertures photo d'évènements (journées, soirées, cocktails) incluant la présence sur
-                            l'évènement et le rendu des photos retouchées dans un délai donné.<br>
-                            Participation à des projets vidéos de plusieurs mois (un clip et un live TV).
-                        </p>
-                        <p class="skills">
-                        </p>
-                    </div>
-                </div>
-                <div class="experience"> <!-- ESN De Vinci -->
-                    <a href="https://linktr.ee/esn.devinci?fbclid=PAZXh0bgNhZW0CMTEAAaex2OLALFcUT_8K3ncX1HWoxCHgEbVucyxfhAa-qPUzW_vb1DWKxLkzrEJ0hw_aem_ec9Ck65n2S_gywg1a8mTow"
-                        target="_blank"><img src="assets/img/logo-esn-de-vinci.jpeg" alt="Logo ESN De Vinci"
-                            class="logo"></a>
-                    <div class="details">
-                        <h3><span class="job-title">Membre pôle communication</span> – <span class="company">ESN De
-                                Vinci</span></h3>
-                        <p>
-                            <span class="period">Octobre 2021 – Juin 2023</span> · <span class="location">Courbevoie,
-                                France</span>
-                        </p>
-                        <p class="description">
-                            Création de visuels pour promouvoir des évènements.<br>
-                            Création de pulls.<br>
-                            Organisation d'un concours vidéo.
-                        </p>
-                        <p class="skills">
-                            Création de visuels
-                        </p>
-                    </div>
-                </div>
+            
+            <section>
+                <h2 id="volunteering-section-title" class="section-title"></h2>
+                <div id="volunteering-container"></div>
             </section>
-            <section> <!-- Certification section -->
-                <h2 class="section-title">Certifications</h2>
-                <div class="education"> <!-- Scrum -->
-                    <a href="https://www.enablers.io/" target="_blank"><img src="assets/img/logo-enablers.jpeg"
-                            alt="Logo ESILV" class="logo"></a>
-                    <div class="details">
-                        <h3><span class="institution">Enablers - Agile methodology</span></h3>
-                        <p><span class="qualification">Enablers.io</span></p>
-                        <p>
-                            <span class="period">Date de délivrance : novembre 2024</span>
-                        </p>
-                        <p class="description">
-                            <a href="https://www.enablers.school/api/certification/9605460687959140"
-                                target="_blank">Identifiant</a>
-                        </p>
-                        <p class="skills">
-                            Scrum · Méthodes agiles
-                        </p>
-                    </div>
-                </div>
-                <div class="education"> <!-- TOEFL -->
-                    <a href="https://www.ets.org/toefl.html" target="_blank"><img src="assets/img/logo-toefl.jpeg"
-                            alt="Logo TOEFL" class="logo"></a>
-                    <div class="details">
-                        <h3><span class="institution">TOEFL ITP (B2 - 563)</span></h3>
-                        <p><span class="qualification">TOEFL</span></p>
-                        <p>
-                            <span class="period">Date de délivrance : décembre 2022</span>
-                        </p>
-                        <p class="description">
-                        </p>
-                        <p class="skills">
-                        </p>
-                    </div>
-                </div>
-                <div class="education"> <!-- Design Thinker -->
-                    <a href="https://www.dthinking.academy/" target="_blank"><img
-                            src="assets/img/logo-dthinking-academy.jpeg" alt="Logo dthinking academy" class="logo"></a>
-                    <div class="details">
-                        <h3><span class="institution">Design Thinker</span></h3>
-                        <p><span class="qualification">dthinking academy</span></p>
-                        <p>
-                            <span class="period">Date de délivrance : novembre 2022</span>
-                        </p>
-                        <p class="description">
-                            <a href="https://www.smartcertificate.com/SmartCertificate/?1%7c92523713-42e7-4a3e-bbb8-1ee1492f5acd%7cb4d77184-f683-4c0a-b12c-27bedaf41f51"
-                                target="_blank">Identifiant</a>
-                        </p>
-                        <p class="skills">
-                        </p>
-                    </div>
-                </div>
-                <div class="education"> <!-- BAFA -->
-                    <a href="https://www.education.gouv.fr/" target="_blank"><img src="assets/img/logo-ministere.jpeg"
-                            alt="Logo Ministère de l'Education nationale, de la Jeunesse et des Sports"
-                            class="logo"></a>
-                    <div class="details">
-                        <h3><span class="institution">BAFA complet, approfondissement spécialisé en accueil de loisirs
-                                et périscolaire & accueil de l'enfant en situation de handicap</span></h3>
-                        <p><span class="qualification">Ministère de l'Education nationale, de la Jeunesse et des
-                                Sports</span></p>
-                        <p>
-                            <span class="period">Date de délivrance : octobre 2021</span>
-                        </p>
-                        <p class="description">
-                        </p>
-                        <p class="skills">
-                        </p>
-                    </div>
-                </div>
+            
+            <section>
+                <h2 id="certification-section-title" class="section-title"></h2>
+                <div id="certification-container"></div>
             </section>
         </section>
 
-        <section id="portfolio-section" class="tab-section"> <!-- Portfolio section -->
-            <div class="project">
-                <button class="project-title">⚽ Projet 2</button>
-                <div class="project-details">
-                    <p class="project-intro">Description du projet.</p>
-                    <div class="project-video">
-                        <iframe src="https://www.youtube.com/embed/ID" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                    <ul class="project-tech">
-                        <li>Python (Pandas, Matplotlib)</li>
-                        <li>Jupyter Notebook</li>
-                        <li>Sources : FBref & FIFA API</li>
-                    </ul>
-                    <div class="project-github">
-                        <a href="https://github.com/ton-projet" target="_blank" rel="noopener noreferrer">
-                            🔗 Voir sur GitHub
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="project">
-                <button class="project-title">⚽ Analyse de matchs – Euro 2024</button>
-                <div class="project-details">
-                    <p class="project-intro">Analyse statistique des tirs et passes des équipes qualifiées.</p>
-                    <div class="project-video">
-                        <iframe src="https://www.youtube.com/embed/V1SfOOnPEmA" frameborder="0"
-                            allowfullscreen></iframe>
-                    </div>
-                    <ul class="project-tech">
-                        <li>Python (Pandas, Matplotlib)</li>
-                        <li>Jupyter Notebook</li>
-                        <li>Sources : FBref & FIFA API</li>
-                    </ul>
-                    <div class="project-github">
-                        <a href="https://github.com/ton-projet" target="_blank" rel="noopener noreferrer">
-                            🔗 Voir sur GitHub
-                        </a>
-                    </div>
-                </div>
-            </div>
+        <!-- Portfolio Section -->
+        <section id="portfolio-section" class="tab-section">
+            <div id="portfolio-container"></div>
         </section>
     </main>
 
-    <footer class="contact-footer"> <!-- Contact footer -->
+    <!-- Footer -->
+    <footer class="contact-footer">
         <div class="footer-content">
-            <div class="footer-title">Contact</div>
+            <div id="footer-title" class="footer-title"></div>
             <div class="footer-links">
-                <p><a href="mailto:valentine.2vandervoort@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i>
-                        valentine.2vandervoort@gmail.com</a></p>
-                <p><a href="tel:+33629126016"><i class="fas fa-phone"></i> +33 6 29 12 60 16</a></p>
-                <p><a href="https://www.linkedin.com/in/valentine-vandervoort" target="_blank" aria-label="LinkedIn"><i
-                            class="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/valouvalouvalou" target="_blank" aria-label="GitHub"><i
-                            class="fab fa-github"></i></a>
+                <p><a id="footer-mail"></a></p>
+                <p><a id="footer-phone"></a></p>
+                <p>
+                    <a id="footer-linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a id="footer-github" target="_blank"><i class="fab fa-github"></i></a>
                 </p>
-                <p><a href="https://www.google.com/maps/place/Paris" target="_blank" aria-label="Location"
-                        rel="noopener noreferrer"><i class="fas fa-map-marker-alt"></i> Île-de-France, France</a></p>
+                <p><a id="footer-location" target="_blank" rel="noopener noreferrer"></a></p>
             </div>
         </div>
     </footer>
 
-    <script> // Script for buttons
-        document.addEventListener("DOMContentLoaded", function () {
-            const tabButtons = document.querySelectorAll(".tab-button");
-            const tabSections = document.querySelectorAll(".tab-section");
-
-            tabButtons.forEach(button => {
-                button.addEventListener("click", () => {
-                    const targetId = button.getAttribute("data-target");
-
-                    tabButtons.forEach(btn => btn.classList.remove("active"));
-                    button.classList.add("active");
-
-                    tabSections.forEach(section => {
-                        if (section.id === targetId) {
-                            section.classList.add("active");
-                        } else {
-                            section.classList.remove("active");
-                        }
-                    });
-                });
-            });
-        });
-    </script>
-
-    <script> // Script to activate drop-down panel 
-        document.querySelectorAll('.project-title').forEach(button => {
-            button.addEventListener('click', () => {
-                const details = button.nextElementSibling;
-                details.classList.toggle('open');
-            });
-        });
-    </script>
+    <!-- JavaScript -->
+    <script src="script.js"></script>
 </body>
-
 </html>

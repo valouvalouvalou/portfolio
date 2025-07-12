@@ -1,0 +1,578 @@
+{
+    "fr": {
+        "pageTitle": "Valentine Vandervoort - Data & Sport Analyst",
+        "headerJobTitle": "Stage Data & Sport Analyst",
+        "headerPeriodTitle": "de février à août 2026",
+        "profile": {
+            "picture": {
+                "src": "assets/img/photo-cv.png",
+                "alt": "Profile Picture"
+            },
+            "name": "Valentine Vandervoort",
+            "location": {
+                "tag": "Île-de-France, France",
+                "link": "https://www.google.com/maps/place/Paris",
+                "ariaLabel": "Location"
+            },
+            "age": "21 ans",
+            "drivingLicense": "Permis B"
+        },
+        "contact": {
+            "tag": "Contact",
+            "linkedin": {
+                "tag": "valentine-vandervoort",
+                "link": "https://www.linkedin.com/in/valentine-vandervoort/",
+                "ariaLabel": "LinkedIn"
+            },
+            "mail": {
+                "tag": "valentine.2vandervoort@gmail.com",
+                "link": "mailto:valentine.2vandervoort@gmail.com",
+                "ariaLabel": "Mail"
+            },
+            "phone": {
+                "tag": "+33 6 29 12 60 16",
+                "link": "tel:+33629126016",
+                "ariaLabel": "Phone"
+            },
+            "github": {
+                "tag": "valouvalouvalou",
+                "link": "https://github.com/valouvalouvalou",
+                "ariaLabel": "GitHub"
+            }
+        },
+        "cvButton": "CV",
+        "portfolioButton": "Portfolio",
+        "about": "Animée par le sport depuis toujours, j’en apprécie autant la pratique que les valeurs qu’il véhicule. Depuis deux ans, je m’y consacre de manière plus intensive, ce qui a confirmé mon choix de m’orienter professionnellement vers ce domaine en adéquation avec mon profil et mes aspirations.<br><br>Je suis actuellement en dernière année d'école d’ingénieur, avec pour objectif d'allier mes compétences techniques avec ma passion du sport. C’est pourquoi je suis à la recherche d’un <strong>stage de fin d’études, de février à août 2026, dans le domaine de l’analyse de données appliquée au sport.</strong><br><br>Idéalement, je souhaiterais participer au suivi de la performance des athlètes, à l'optimisation de leur préparation physique, ainsi qu'à l'ajustement de la récupération. Les données offrant aujourd’hui une réelle plus-value aux sciences du sport, je souhaite les exploiter dans des projets concrets visant à améliorer à la fois la performance et le bien-être des sportifs.",
+        "experienceSectionTitle": "Expériences professionnelles",
+        "experiences": [
+            {
+                "logo": {
+                    "link": "https://accure.fr/",
+                    "img": {
+                        "src": "assets/img/logo-accure.jpeg",
+                        "alt": "Logo accure"
+                    }
+                },
+                "details": {
+                    "jobTitle": "Architecte cloud junior",
+                    "company": "accure",
+                    "period": "Avril 2025 – Août 2025",
+                    "location": "Paris, France",
+                    "description": "Construction d'une plateforme data sur un cloud 100% souverain.",
+                    "skills": "Terraform"
+                }
+            },
+            {
+                "logo": {
+                    "link": "https://www.devinci.fr/",
+                    "img": {
+                        "src": "assets/img/logo-de-vinci.png",
+                        "alt": "Logo De Vinci Black Background"
+                    }
+                },
+                "details": {
+                    "jobTitle": "Auxiliaire de la Vie Associative",
+                    "company": "Pôle Léonard de Vinci",
+                    "period": "Mai 2024 – Avril 2025",
+                    "location": "Courbevoie, France",
+                    "description": "Appuyer le service de la vie associative sur la gestion administrative des 61 associations, l'organisation des événements et des formations.<br>Gestion de la répartition des événements associatifs de 60 associations.<br>Assurer la communication quotidienne, le suivi administratif et le lien opérationnel avec les 60 associations.<br>Organisation d’un séminaire de formation sur deux jours à destination des nouveaux bureaux associatifs (250 participants).<br>Coordination de la journée d’intégration rassemblant plus de 1 000 participants.<br>Conception et réalisation de supports visuels et graphiques.<br>Déploiement d’un nouveau canal de communication entre le service de la vie associative et les associations afin d’optimiser les échanges et fluidifier les processus.<br> Maintien et mise à jour du SharePoint dédié à la vie associative.",
+                    "skills": "Gestion d'événements, Rédaction, Sens de l'organisation, Adaptabilité"
+                }
+            },
+            {
+                "logo": {
+                    "link": "https://advancedtrackandtrace.com/",
+                    "img": {
+                        "src": "assets/img/logo-advanced-track-trace.jpeg",
+                        "alt": "Logo Advanced Track & Trace"
+                    }
+                },
+                "details": {
+                    "jobTitle": "Stagiaire en développement Web",
+                    "company": "Advanced Track & Trace",
+                    "period": "Juin 2023 – Août 2023",
+                    "location": "Rueil-Malmaison, France",
+                    "description": "Mise en place d’une plate-forme web d’import des valeurs nutritionnelles dans le domaine des vins et spiritueux.",
+                    "skills": "C#, Microsoft SQL Server, Blazor, Entity Framework"
+                }
+            }
+        ],
+        "educationSectionTitle": "Formations",
+        "education": [
+            {
+                "logo": {
+                    "link": "https://www.esilv.fr/",
+                    "img": {
+                        "src": "assets/img/logo-esilv.png",
+                        "alt": "Logo ESILV"
+                    }
+                },
+                "details": {
+                    "institution": "ESILV - Ecole Supérieure d'Ingénieurs Léonard de Vinci",
+                    "qualification": "Diplôme d'ingénieur généraliste - Majeure Cloud computing & Cybersécurité - Parcours UX Design",
+                    "period": "Septembre 2021 – Août 2026",
+                    "location": "Courbevoie, France",
+                    "description": "",
+                    "skills": "C#, C++, MySQL, NoSQL, Java, Javascript, Python, Travail d'équipe, Gestion de projet"
+                }
+            },
+            {
+                "logo": {
+                    "link": "https://www.unipd.it/",
+                    "img": {
+                        "src": "assets/img/logo-unipd.png",
+                        "alt": "Logo Università degli Studi di Padova"
+                    }
+                },
+                "details": {
+                    "institution": "Università degli Studi di Padova",
+                    "qualification": "Semestre à l'international",
+                    "period": "Septembre 2025 – Février 2026",
+                    "location": "Padoue, Italie",
+                    "description": "",
+                    "skills": ""
+                }
+            },
+            {
+                "logo": {
+                    "link": "https://vum.bg/",
+                    "img": {
+                        "src": "assets/img/logo-vum.png",
+                        "alt": "Logo Varna University of Management"
+                    }
+                },
+                "details": {
+                    "institution": "Varna University of Management",
+                    "qualification": "Semestre à l'international",
+                    "period": "Septembre 2023 – Janvier 2024",
+                    "location": "Varna, Bulgarie",
+                    "description": "Courses attended :<br>Data Structures And Algorithms II<br>Computational Intelligence<br>Research Methods for Computing and IS<br>Economics",
+                    "skills": ""
+                }
+            }
+        ],
+        "volunteeringSectionTitle": "Expériences associatives",
+        "volunteering": [
+            {
+                "logo": {
+                    "link": "https://poletech.fr/",
+                    "img": {
+                        "src": "assets/img/logo-poletech.png",
+                        "alt": "Logo Poletech"
+                    }
+                },
+                "details": {
+                    "jobTitle": "Secrétaire",
+                    "company": "Poletech",
+                    "period": "Avril 2022 – Juin 2023",
+                    "location": "Courbevoie, France",
+                    "description": "Organisation des couvertures photo et vidéo d'évènements. Veiller à la bonne mise en place des moyens matériel et humain et gérer ceux-ci.<br>Echanges avec la vie associative, les autres associations du pôle et des entreprises.<br>Mise en place des recrutements.<br>Faire passer des entretiens.<br>Aide à l'organisation de week-ends de cohésion pour 60 personnes.<br>Communication avec l'ensemble du bureau, une équipe composée de dix personnes, pour mener à bien nos missions et que tout le monde reste informé.",
+                    "skills": "Organisation, Gestion de moyens humain et matériel, Rédaction, Communication, Travail d'équipe"
+                }
+            },
+            {
+                "logo": {
+                    "link": "https://poletech.fr/",
+                    "img": {
+                        "src": "assets/img/logo-poletech.png",
+                        "alt": "Logo Poletech"
+                    }
+                },
+                "details": {
+                    "jobTitle": "Photographe",
+                    "company": "Poletech",
+                    "period": "Octobre 2021 – Août 2026",
+                    "location": "Courbevoie, France",
+                    "description": "Couvertures photo d'évènements (journées, soirées, cocktails) incluant la présence sur l'évènement et le rendu des photos retouchées dans un délai donné.<br>Participation à des projets vidéos de plusieurs mois (un clip et un live TV).",
+                    "skills": ""
+                }
+            },
+            {
+                "logo": {
+                    "link": "https://linktr.ee/esn.devinci?fbclid=PAZXh0bgNhZW0CMTEAAaex2OLALFcUT_8K3ncX1HWoxCHgEbVucyxfhAa-qPUzW_vb1DWKxLkzrEJ0hw_aem_ec9Ck65n2S_gywg1a8mTow",
+                    "img": {
+                        "src": "assets/img/logo-esn-de-vinci.jpeg",
+                        "alt": "Logo ESN De Vinci"
+                    }
+                },
+                "details": {
+                    "jobTitle": "Membre pôle communication",
+                    "company": "ESN De Vinci",
+                    "period": "Octobre 2021 – Juin 2023",
+                    "location": "Courbevoie, France",
+                    "description": "Création de visuels pour promouvoir des évènements.<br>Création de pulls.<br>Organisation d'un concours vidéo.",
+                    "skills": "Création de visuels"
+                }
+            }
+        ],
+        "certificationSectionTitle": "Certifications",
+        "certifications": [
+            {
+                "logo": {
+                    "link": "https://www.enablers.io/",
+                    "img": {
+                        "src": "assets/img/logo-enablers.jpeg",
+                        "alt": "Logo Enablers"
+                    }
+                },
+                "details": {
+                    "qualification": "Enablers - Agile methodology",
+                    "institution": "Enablers.io",
+                    "deliveryDate": "Date de délivrance : novembre 2024",
+                    "identifier": "Identifiant",
+                    "identifierLink": "https://www.enablers.school/api/certification/9605460687959140",
+                    "skills": "Scrum · Méthodes agiles"
+                }
+            },
+            {
+                "logo": {
+                    "link": "https://www.ets.org/toefl.html",
+                    "img": {
+                        "src": "assets/img/logo-toefl.jpeg",
+                        "alt": "Logo TOEFL"
+                    }
+                },
+                "details": {
+                    "qualification": "TOEFL ITP (B2 - 563)",
+                    "institution": "TOEFL",
+                    "deliveryDate": "Date de délivrance : décembre 2022",
+                    "identifier": "",
+                    "identifierLink": "",
+                    "skills": ""
+                }
+            },
+            {
+                "logo": {
+                    "link": "https://www.dthinking.academy/",
+                    "img": {
+                        "src": "assets/img/logo-dthinking-academy.jpeg",
+                        "alt": "Logo dthinking academy"
+                    }
+                },
+                "details": {
+                    "qualification": "Design Thinker",
+                    "institution": "dthinking academy",
+                    "deliveryDate": "Date de délivrance : novembre 2022",
+                    "identifier": "Identifiant",
+                    "identifierLink": "https://www.smartcertificate.com/SmartCertificate/?1%7c92523713-42e7-4a3e-bbb8-1ee1492f5acd%7cb4d77184-f683-4c0a-b12c-27bedaf41f51",
+                    "skills": ""
+                }
+            },
+            {
+                "logo": {
+                    "link": "https://www.education.gouv.fr/",
+                    "img": {
+                        "src": "assets/img/logo-ministere.jpeg",
+                        "alt": "Logo Ministère de l'Education nationale, de la Jeunesse et des Sports"
+                    }
+                },
+                "details": {
+                    "qualification": "BAFA complet, approfondissement spécialisé en accueil de loisirs et périscolaire & accueil de l'enfant en situation de handicap",
+                    "institution": "Ministère de l'Education nationale, de la Jeunesse et des Sports",
+                    "deliveryDate": "Date de délivrance : octobre 2021",
+                    "identifier": "",
+                    "identifierLink": "",
+                    "skills": ""
+                }
+            }
+        ],
+        "projects": [
+            {
+                "title": "⚽ Analyse de matchs – Euro 2024",
+                "description": "Analyse statistique des tirs et passes des équipes qualifiées.",
+                "videoLink": "https://www.youtube.com/embed/V1SfOOnPEmA",
+                "skills": "<li>Python (Pandas, Matplotlib)</li><li>Jupyter Notebook</li><li>Sources : FBref & FIFA API</li>",
+                "githubLink": "https://github.com/ton-projet",
+                "githubText": "🔗 Voir sur GitHub"
+            }
+        ]
+    },
+    "en": {
+        "pageTitle": "Valentine Vandervoort - Data & Sport Analyst",
+        "headerJobTitle": "Data & Sport Analyst Internship",
+        "headerPeriodTitle": "from February to August 2026",
+        "profile": {
+            "picture": {
+                "src": "assets/img/photo-cv.png",
+                "alt": "Profile Picture"
+            },
+            "name": "Valentine Vandervoort",
+            "location": {
+                "tag": "Ile-de-France, France",
+                "link": "https://www.google.com/maps/place/Paris",
+                "ariaLabel": "Location"
+            },
+            "age": "21 years old",
+            "drivingLicense": "Driving license"
+        },
+        "contact": {
+            "tag": "Contact",
+            "linkedin": {
+                "tag": "valentine-vandervoort",
+                "link": "https://www.linkedin.com/in/valentine-vandervoort/",
+                "ariaLabel": "LinkedIn"
+            },
+            "mail": {
+                "tag": "valentine.2vandervoort@gmail.com",
+                "link": "mailto:valentine.2vandervoort@gmail.com",
+                "ariaLabel": "Mail"
+            },
+            "phone": {
+                "tag": "+33 6 29 12 60 16",
+                "link": "tel:+33629126016",
+                "ariaLabel": "Phone"
+            },
+            "github": {
+                "tag": "valouvalouvalou",
+                "link": "https://github.com/valouvalouvalou",
+                "ariaLabel": "GitHub"
+            }
+        },
+        "cvButton": "Resume",
+        "portfolioButton": "Portfolio",
+        "about": "Passionate about sports for as long as I can remember, I value both its practice and the values it conveys. Over the past two years, I have dedicated myself to it more intensively, which confirmed my choice to pursue a professional path aligned with both my profile and aspirations.<br><br>I am currently in my final year of engineering school, with the goal of combining my technical skills with my passion for sports. This is why I am looking for a <strong>graduation internship, from February to August 2026, in the field of data analysis applied to sports.</strong><br><br>Ideally, I would like to contribute to monitoring athlete performance, optimizing physical preparation, and refining recovery strategies. As data now provides real added value to sports science, I aim to use it in concrete projects that enhance both performance and athlete well-being.",
+        "experienceSectionTitle": "Experience",
+        "experiences": [
+            {
+                "logo": {
+                    "link": "https://accure.fr/",
+                    "img": {
+                        "src": "assets/img/logo-accure.jpeg",
+                        "alt": "accure logo"
+                    }
+                },
+                "details": {
+                    "jobTitle": "Junior cloud architect",
+                    "company": "accure",
+                    "period": "April 2025 - August 2025",
+                    "location": "Paris, France",
+                    "description": "Development of a data platform on a fully sovereign cloud.",
+                    "skills": "Terraform"
+                }
+            },
+            {
+                "logo": {
+                    "link": "https://www.devinci.fr/",
+                    "img": {
+                        "src": "assets/img/logo-de-vinci.png",
+                        "alt": "De Vinci Black Background Logo"
+                    }
+                },
+                "details": {
+                    "jobTitle": "Student Association Support Assistant",
+                    "company": "Pôle Léonard de Vinci",
+                    "period": "May 2024 – April 2025",
+                    "location": "Courbevoie, France",
+                    "description": "Assisted the department in charge of student associations with administrative coordination, event planning, and communication across 60+ student organizations.<br>Managed the scheduling and distribution of association-led events.<br>Ensured daily communication, administrative follow-up, and operational support with all associations.<br>Organized a two-day training seminar for newly elected student boards (250 participants).<br>Coordinated the integration day attended by over 1,000 participants.<br>Designed and produced visual and graphic content for internal and external communication.<br>Rolled out a new communication channel between the department and associations to streamline exchanges and processes.<br>Maintained and updated the SharePoint site dedicated to student associations.",
+                    "skills": "Event management, Writing, Organizational skills, Adaptability"
+                }
+            },
+            {
+                "logo": {
+                    "link": "https://advancedtrackandtrace.com/",
+                    "img": {
+                        "src": "assets/img/logo-advanced-track-trace.jpeg",
+                        "alt": "Advanced Track & Trace Logo"
+                    }
+                },
+                "details": {
+                    "jobTitle": "Web Development Intern",
+                    "company": "Advanced Track & Trace",
+                    "period": "June 2023 – August 2023",
+                    "location": "Rueil-Malmaison, France",
+                    "description": "Developed a web platform for importing nutritional values in the wine and spirits industry.",
+                    "skills": "C#, Microsoft SQL Server, Blazor, Entity Framework"
+                }
+            }
+        ],
+        "educationSectionTitle": "Education",
+        "education": [
+            {
+                "logo": {
+                    "link": "https://www.esilv.fr/",
+                    "img": {
+                        "src": "assets/img/logo-esilv.png",
+                        "alt": "ESILV Logo"
+                    }
+                },
+                "details": {
+                    "institution": "ESILV - Léonard de Vinci Graduate School of Engineering",
+                    "qualification": "General Engineering Degree – Major in Cloud Computing & Cybersecurity – UX Design track",
+                    "period": "September 2021 – August 2026",
+                    "location": "Courbevoie, France",
+                    "description": "",
+                    "skills": "C#, C++, MySQL, NoSQL, Java, Javascript, Python, Teamwork, Project Management"
+                }
+            },
+            {
+                "logo": {
+                    "link": "https://www.unipd.it/",
+                    "img": {
+                        "src": "assets/img/logo-unipd.png",
+                        "alt": "Università degli Studi di Padova Logo"
+                    }
+                },
+                "details": {
+                    "institution": "Università degli Studi di Padova",
+                    "qualification": "International semester",
+                    "period": "September 2025 – February 2026",
+                    "location": "Padoue, Italie",
+                    "description": "",
+                    "skills": ""
+                }
+            },
+            {
+                "logo": {
+                    "link": "https://vum.bg/",
+                    "img": {
+                        "src": "assets/img/logo-vum.png",
+                        "alt": "Varna University of ManagementLogo"
+                    }
+                },
+                "details": {
+                    "institution": "Varna University of Management",
+                    "qualification": "International semester",
+                    "period": "September 2023 – January 2024",
+                    "location": "Varna, Bulgarie",
+                    "description": "Courses attended :<br>Data Structures And Algorithms II<br>Computational Intelligence<br>Research Methods for Computing and IS<br>Economics",
+                    "skills": ""
+                }
+            }
+        ],
+        "volunteeringSectionTitle": "Volunteering",
+        "volunteering": [
+            {
+                "logo": {
+                    "link": "https://poletech.fr/",
+                    "img": {
+                        "src": "assets/img/logo-poletech.png",
+                        "alt": "Poletech Logo"
+                    }
+                },
+                "details": {
+                    "jobTitle": "Secretary",
+                    "company": "Poletech",
+                    "period": "April 2022 – June 2023",
+                    "location": "Courbevoie, France",
+                    "description": "Organized photo and video coverage for events. Ensured proper setup and management of human and material resources.<br>Coordinated with the association life department, other associations in the network, and external companies.<br>Managed recruitment processes and conducted interviews.<br>Assisted in organizing team-building weekends for 60 participants.<br>Maintained communication within the board, a team of ten members, to ensure smooth operations and keep everyone informed.",
+                    "skills": "Organization, Human and material resource management, Writing, Communication, Teamwork"
+                }
+            },
+            {
+                "logo": {
+                    "link": "https://poletech.fr/",
+                    "img": {
+                        "src": "assets/img/logo-poletech.png",
+                        "alt": "Poletech Logo"
+                    }
+                },
+                "details": {
+                    "jobTitle": "Photographer",
+                    "company": "Poletech",
+                    "period": "October 2021 – August 2026",
+                    "location": "Courbevoie, France",
+                    "description": "Provided photo coverage for events such as day events, evening parties, and cocktails, including onsite presence and delivering retouched photos within deadlines.<br>Participated in long-term video projects (a music video and a live TV broadcast).",
+                    "skills": ""
+                }
+            },
+            {
+                "logo": {
+                    "link": "https://linktr.ee/esn.devinci?fbclid=PAZXh0bgNhZW0CMTEAAaex2OLALFcUT_8K3ncX1HWoxCHgEbVucyxfhAa-qPUzW_vb1DWKxLkzrEJ0hw_aem_ec9Ck65n2S_gywg1a8mTow",
+                    "img": {
+                        "src": "assets/img/logo-esn-de-vinci.jpeg",
+                        "alt": "ESN De Vinci Logo"
+                    }
+                },
+                "details": {
+                    "jobTitle": "Communications Team Member",
+                    "company": "ESN De Vinci",
+                    "period": "October 2021 – June 2023",
+                    "location": "Courbevoie, France",
+                    "description": "Created visuals to promote events.<br>Designed custom sweatshirts.<br>Organized a video contest.",
+                    "skills": "Visual design"
+                }
+            }
+        ],
+        "certificationSectionTitle": "Certifications",
+        "certifications": [
+            {
+                "logo": {
+                    "link": "https://www.enablers.io/",
+                    "img": {
+                        "src": "assets/img/logo-enablers.jpeg",
+                        "alt": "Enablers Logo"
+                    }
+                },
+                "details": {
+                    "qualification": "Enablers - Agile methodology",
+                    "institution": "Enablers.io",
+                    "deliveryDate": "Delivery date : November 2024",
+                    "identifier": "Identifier",
+                    "identifierLink": "https://www.enablers.school/api/certification/9605460687959140",
+                    "skills": "Scrum · Agile methodologies"
+                }
+            },
+            {
+                "logo": {
+                    "link": "https://www.ets.org/toefl.html",
+                    "img": {
+                        "src": "assets/img/logo-toefl.jpeg",
+                        "alt": "TOEFL Logo"
+                    }
+                },
+                "details": {
+                    "qualification": "TOEFL ITP (B2 - 563)",
+                    "institution": "TOEFL",
+                    "deliveryDate": "Delivery date : December 2022",
+                    "identifier": "",
+                    "identifierLink": "",
+                    "skills": ""
+                }
+            },
+            {
+                "logo": {
+                    "link": "https://www.dthinking.academy/",
+                    "img": {
+                        "src": "assets/img/logo-dthinking-academy.jpeg",
+                        "alt": "Logo dthinking academy"
+                    }
+                },
+                "details": {
+                    "qualification": "Design Thinker",
+                    "institution": "dthinking academy",
+                    "deliveryDate": "Delivery date : November 2022",
+                    "identifier": "Identifier",
+                    "identifierLink": "https://www.smartcertificate.com/SmartCertificate/?1%7c92523713-42e7-4a3e-bbb8-1ee1492f5acd%7cb4d77184-f683-4c0a-b12c-27bedaf41f51",
+                    "skills": ""
+                }
+            },
+            {
+                "logo": {
+                    "link": "https://www.education.gouv.fr/",
+                    "img": {
+                        "src": "assets/img/logo-ministere.jpeg",
+                        "alt": "Ministry of Education, Youth and Sports Logo"
+                    }
+                },
+                "details": {
+                    "qualification": "Full BAFA certification (French youth work qualification), specialized in leisure and after-school programs, and in supporting children with disabilities",
+                    "institution": "Ministry of Education, Youth and Sports",
+                    "deliveryDate": "Delivery date : October 2021",
+                    "identifier": "",
+                    "identifierLink": "",
+                    "skills": ""
+                }
+            }
+        ],
+        "projects": [
+            {
+                "title": "⚽ Test",
+                "description": "Description.",
+                "videoLink": "https://www.youtube.com/embed/V1SfOOnPEmA",
+                "skills": "<li>Python (Pandas, Matplotlib)</li><li>Jupyter Notebook</li><li>Sources : FBref & FIFA API</li>",
+                "githubLink": "https://github.com/ton-projet",
+                "githubText": "🔗 Watch on GitHub"
+            }
+        ]
+    }
+}

@@ -1,4 +1,15 @@
-/* Header style */
+/* ===========================================
+   GENERAL STYLES
+   =========================================== */
+body {
+    font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===========================================
+   HEADER STYLES
+   =========================================== */
 .header {
     background: linear-gradient(135deg, #0b2545, #13315c);
     color: white;
@@ -93,7 +104,53 @@
     flex-wrap: wrap;
 }
 
-/* Navigation bar style */
+/* Language selector */
+.language-selector {
+    margin-top: 6px;
+    font-size: 10px;
+    color: #dbe7ff;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.lang-btn {
+    background: none;
+    border: none;
+    color: #dbe7ff;
+    font-size: 13px;
+    cursor: pointer;
+    padding: 0;
+    font-family: inherit;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.lang-btn:not(.active)::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    transform: translateX(-50%) scaleX(0);
+    width: 100%;
+    height: 1px;
+    background-color: #dbe7ff;
+    transition: transform 0.3s ease;
+    transform-origin: center;
+}
+
+.lang-btn:not(.active):hover::after {
+    transform: translateX(-50%) scaleX(1);
+}
+
+.lang-btn.active {
+    border-bottom: 1px solid #dbe7ff;
+}
+
+/* ===========================================
+   NAVIGATION STYLES
+   =========================================== */
 .nav-wrapper {
     max-width: 960px;
     margin: 0 auto;
@@ -104,7 +161,6 @@
     justify-content: center;
     padding: 10px 0;
     margin-bottom: 15px;
-    /*20px;*/
     gap: 0px;
 }
 
@@ -145,11 +201,9 @@
     font-weight: 600;
 }
 
-/* Content style */
-body {
-    font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
+/* ===========================================
+   MAIN CONTENT STYLES
+   =========================================== */
 .main-content {
     max-width: 900px;
     margin: 0 auto;
@@ -160,16 +214,15 @@ body {
 }
 
 .tab-section {
-    display: flex;
+    display: none;
     flex-direction: column;
     gap: 30px;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
-    display: none;
 }
 
 .tab-section.active {
-    display: flex; /* Réaffirme display ici aussi */
+    display: flex;
     opacity: 1;
 }
 
@@ -182,6 +235,7 @@ body {
     font-weight: 600;
 }
 
+/* Experience and Education sections */
 .experience,
 .education {
     display: flex;
@@ -198,7 +252,6 @@ body {
     margin-top: 4px;
 }
 
-/* + */
 .details h3 {
     font-size: 18px;
     font-weight: normal;
@@ -206,7 +259,6 @@ body {
     color: #111;
 }
 
-/* + */
 .details p {
     font-size: 15px;
     color: #111;
@@ -219,7 +271,6 @@ body {
     font-weight: 600;
 }
 
-/* + */
 .education .qualification {
     display: block;
     font-size: 18px;
@@ -235,110 +286,91 @@ body {
 
 .details .description {
     margin-top: 8px;
-    /*5px;*/
     line-height: 1.5;
 }
 
 .details .skills {
     margin-top: 6px;
-    /*3px;*/
     font-size: 15px;
     color: #111;
     font-weight: 600;
 }
 
-/* Portfolio section */
-
+/* ===========================================
+   PORTFOLIO SECTION
+   =========================================== */
 .project {
-  border-bottom: 1px solid #ccc;
-  padding: 12px 0;
+    border-bottom: 1px solid #ccc;
+    padding: 12px 0;
 }
 
 .project-title {
-  width: 100%;
-  text-align: left;
-  font-size: 18px;
-  font-weight: 600;
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 8px 0;
-  transition: color 0.3s ease;
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px 0;
+    transition: color 0.3s ease;
 }
 
 .project-title:hover {
-  color: #003366;
+    color: #003366;
 }
 
 .project-details {
-  display: none;
-  padding-top: 10px;
-  animation: fadeIn 0.3s ease-in-out;
+    display: none;
+    padding-top: 10px;
+    animation: fadeIn 0.3s ease-in-out;
 }
 
 .project-details.open {
-  display: block;
+    display: block;
 }
 
 .project-video iframe {
-  width: 100%;
-  height: 315px;
-  max-width: 640px;
-  margin-top: 10px;
+    width: 100%;
+    height: 315px;
+    max-width: 640px;
+    margin-top: 10px;
 }
 
 .project-tech {
-  list-style: disc;
-  margin-top: 10px;
-  padding-left: 20px;
+    list-style: disc;
+    margin-top: 10px;
+    padding-left: 20px;
 }
 
 .project-github {
-  margin-top: 12px;
+    margin-top: 12px;
 }
 
 .project-github a {
-  color: #111;
-  text-decoration: none;
-  font-weight: 500;
-  transition: color 0.3s ease;
+    color: #111;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
 }
 
 .project-github a:hover {
-  color: #003366;
-  text-decoration: underline;
+    color: #003366;
+    text-decoration: underline;
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Footer style */
+/* ===========================================
+   FOOTER STYLES
+   =========================================== */
 .contact-footer {
     background: linear-gradient(135deg, #0b2545, #13315c);
     color: #fff;
@@ -379,7 +411,48 @@ body {
     color: #ffffff;
 }
 
-/* Screen adjustment */
+/* ===========================================
+   RESPONSIVE DESIGN
+   =========================================== */
+
+/* Tablets (768px and less) */
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 30px 15px 20px; /* Padding reduction */
+    }
+    
+    .header-content {
+        gap: 25px; /* Space reduction */
+    }
+    
+    .main-content {
+        padding: 15px;
+    }
+    
+    .tab-button {
+        font-size: 16px; /* Tab size reduction */
+        padding: 10px 0;
+    }
+    
+    /* Gap reduction in sections */
+    .tab-section {
+        gap: 20px;
+    }
+    
+    .experience,
+    .education {
+        margin-bottom: 1.5rem;
+        gap: 1rem;
+    }
+    
+    /* Experience/education sections: slightly smaller logo */
+    .logo {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+/* Mobile (600px and less) */
 @media screen and (max-width: 600px) {
     .header-content {
         flex-direction: column;
@@ -411,9 +484,94 @@ body {
         flex-direction: column;
         gap: 6px;
         text-align: center;
+        white-space: nowrap;
+    }
+
+    .separator {
+        display: none;
     }
 
     .main-content {
-        padding: 16px;
+        padding: 12px;
+    }
+
+    .nav-tabs {
+        padding: 15px 0;
+        gap: 0;
+    }
+    
+    .tab-button {
+        font-size: 16px;
+        padding: 12px 0;
+    }
+
+    .experience,
+    .education {
+        gap: 15px; /* Slight space reduction only */
+    }
+    
+    .logo {
+        width: 50px;
+        height: 50px;
+    }
+    
+    /* Videos responsive */
+    .project-video iframe {
+        height: 200px; /* Reduced height on mobile */
+    }
+    
+    /* More compact footer */
+    .contact-footer {
+        padding: 20px 15px 25px;
+    }
+    
+    .footer-title {
+        font-size: 24px;
+    }
+    
+    .footer-links a {
+        font-size: 14px;
+        margin: 0 4px;
+    }
+}
+
+/* Very small screens (480px and less) */
+@media screen and (max-width: 480px) {
+    .header {
+        padding: 20px 10px 15px;
+    }
+    
+    .header-left h1,
+    .header-right .name {
+        font-size: 18px;
+    }
+    
+    .header-left h2 {
+        font-size: 14px;
+    }
+    
+    .profile-pic {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .contact-summary {
+        font-size: 12px;
+    }
+    
+    .main-content {
+        padding: 10px;
+    }
+    
+    .details h3 {
+        font-size: 16px;
+    }
+    
+    .details p {
+        font-size: 14px;
+    }
+    
+    .project-video iframe {
+        height: 180px;
     }
 }

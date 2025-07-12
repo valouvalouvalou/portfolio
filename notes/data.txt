@@ -1,0 +1,80 @@
+<!--
+⚠️ This file is for personal notes only.
+It is not part of the official code or documentation.
+-->
+
+To format : Shift + Alt + F
+
+To add data in data.json:
+
+CV Section:
+
+To add an experience/volunteering :
+{
+    "logo": {
+        "link": "",
+        "img": {
+            "src": "assets/img/",
+            "alt": "Logo "
+        }
+    },
+    "details": {
+        "jobTitle": "",
+        "company": "",
+        "period": " – ",
+        "location": "",
+        "description": "",
+        "skills": ""
+    }
+}
+
+To add an education:
+{
+    "logo": {
+        "link": "",
+        "img": {
+            "src": "assets/img/",
+            "alt": "Logo "
+        }
+    },
+    "details": {
+        "institution": "",
+        "qualification": "",
+        "period": " – ",
+        "location": "",
+        "description": "",
+        "skills": ""
+    }
+}
+
+To add a certification:
+{
+    "logo": {
+        "link": "",
+        "img": {
+            "src": "assets/img/",
+            "alt": "Logo "
+        }
+    },
+    "details": {
+        "qualification": "",
+        "institution": "",
+        "deliveryDate": "Delivery date : ",
+        "identifier": "Identifier",
+        "identifierLink":"",
+        "skills": ""
+    }
+}
+
+
+Portfolio Section:
+
+To add a project:
+{
+    "title": "",
+    "description": "",
+    "videoLink": "",
+    "skills": "",
+    "githubLink": "",
+    "githubText": "🔗 Watch on GitHub"
+}
