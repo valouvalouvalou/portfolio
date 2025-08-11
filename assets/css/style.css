@@ -8,6 +8,41 @@ body {
 }
 
 /* ===========================================
+   LOADER STYLES
+   =========================================== */
+#loader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0b2545;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+.loader {
+    border: 6px solid #dbe7ff;
+    border-top: 6px solid transparent;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* ===========================================
    HEADER STYLES
    =========================================== */
 .header {
@@ -226,7 +261,7 @@ body {
     opacity: 1;
 }
 
-.tab-section section + section {
+.tab-section section+section {
     border-top: 1px solid #ccc;
     padding-top: 0;
 }
@@ -363,6 +398,7 @@ body {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -418,33 +454,36 @@ body {
 /* Tablets (768px and less) */
 @media screen and (max-width: 768px) {
     .header {
-        padding: 30px 15px 20px; /* Padding reduction */
+        padding: 30px 15px 20px;
+        /* Padding reduction */
     }
-    
+
     .header-content {
-        gap: 25px; /* Space reduction */
+        gap: 25px;
+        /* Space reduction */
     }
-    
+
     .main-content {
         padding: 15px;
     }
-    
+
     .tab-button {
-        font-size: 16px; /* Tab size reduction */
+        font-size: 16px;
+        /* Tab size reduction */
         padding: 10px 0;
     }
-    
+
     /* Gap reduction in sections */
     .tab-section {
         gap: 20px;
     }
-    
+
     .experience,
     .education {
         margin-bottom: 1.5rem;
         gap: 1rem;
     }
-    
+
     /* Experience/education sections: slightly smaller logo */
     .logo {
         width: 45px;
@@ -499,7 +538,7 @@ body {
         padding: 15px 0;
         gap: 0;
     }
-    
+
     .tab-button {
         font-size: 16px;
         padding: 12px 0;
@@ -507,28 +546,30 @@ body {
 
     .experience,
     .education {
-        gap: 15px; /* Slight space reduction only */
+        gap: 15px;
+        /* Slight space reduction only */
     }
-    
+
     .logo {
         width: 50px;
         height: 50px;
     }
-    
+
     /* Videos responsive */
     .project-video iframe {
-        height: 200px; /* Reduced height on mobile */
+        height: 200px;
+        /* Reduced height on mobile */
     }
-    
+
     /* More compact footer */
     .contact-footer {
         padding: 20px 15px 25px;
     }
-    
+
     .footer-title {
         font-size: 24px;
     }
-    
+
     .footer-links a {
         font-size: 14px;
         margin: 0 4px;
@@ -540,37 +581,37 @@ body {
     .header {
         padding: 20px 10px 15px;
     }
-    
+
     .header-left h1,
     .header-right .name {
         font-size: 18px;
     }
-    
+
     .header-left h2 {
         font-size: 14px;
     }
-    
+
     .profile-pic {
         width: 100px;
         height: 100px;
     }
-    
+
     .contact-summary {
         font-size: 12px;
     }
-    
+
     .main-content {
         padding: 10px;
     }
-    
+
     .details h3 {
         font-size: 16px;
     }
-    
+
     .details p {
         font-size: 14px;
     }
-    
+
     .project-video iframe {
         height: 180px;
     }

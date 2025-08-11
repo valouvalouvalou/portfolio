@@ -2,6 +2,8 @@ let lang = 'fr';
 
 // Load JSON data and inject into HTML
 function loadContent() {
+  const loader = document.getElementById("loader-wrapper");
+
   fetch('data/data.json')
     .then(response => response.json())
     .then(data => {
@@ -15,6 +17,9 @@ function loadContent() {
     })
     .catch(error => {
       console.error('Error loading data:', error);
+    })
+    .finally(() => {
+      loader.style.display = "none";
     });
 }
 
@@ -230,7 +235,7 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     });
   });
-  
+
   // Language switching
   const langFrBtn = document.getElementById('lang-fr');
   const langEnBtn = document.getElementById('lang-en');

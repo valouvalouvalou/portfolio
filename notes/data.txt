@@ -78,3 +78,14 @@ To add a project:
     "githubLink": "",
     "githubText": "🔗 Watch on GitHub"
 }
+eg: 
+"projects": [
+    {
+        "title": "⚽ Analyse de matchs – Euro 2024",
+        "description": "Analyse statistique des tirs et passes des équipes qualifiées.",
+        "videoLink": "https://www.youtube.com/embed/V1SfOOnPEmA",
+        "skills": "<li>Python (Pandas, Matplotlib)</li><li>Jupyter Notebook</li><li>Sources : FBref & FIFA API</li>",
+        "githubLink": "https://github.com/ton-projet",
+        "githubText": "🔗 Voir sur GitHub"
+    }
+]
