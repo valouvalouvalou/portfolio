@@ -58,8 +58,7 @@
                     "company": "accure",
                     "period": "Avril 2025 – Août 2025",
                     "location": "Paris, France",
-                    "description": "Construction d'une plateforme data sur un cloud 100% souverain.",
-                    "skills": "Terraform"
+                    "description": "Construction d'une plateforme data sur un cloud 100% souverain.<br>Développement d’un script Python intégré à Databricks pour analyser les comptes de stockage Azure, calculer la taille des dossiers et générer des rapports structurés automatisés."
                 }
             },
             {
@@ -129,7 +128,7 @@
                     "qualification": "Semestre à l'international",
                     "period": "Septembre 2025 – Février 2026",
                     "location": "Padoue, Italie",
-                    "description": "",
+                    "description": "Cours suivis :<br>Innovation, Entrepreneurship and Finance<br>Advanced Text Analytics<br>Foundations of Databases<br>Italian Lab<br>Cognitive, Behavioral and Social Data",
                     "skills": ""
                 }
             },
@@ -146,7 +145,7 @@
                     "qualification": "Semestre à l'international",
                     "period": "Septembre 2023 – Janvier 2024",
                     "location": "Varna, Bulgarie",
-                    "description": "Courses attended :<br>Data Structures And Algorithms II<br>Computational Intelligence<br>Research Methods for Computing and IS<br>Economics",
+                    "description": "Cours suivis :<br>Data Structures And Algorithms II<br>Computational Intelligence<br>Research Methods for Computing and IS<br>Economics",
                     "skills": ""
                 }
             }
@@ -337,8 +336,8 @@
                     "company": "accure",
                     "period": "April 2025 - August 2025",
                     "location": "Paris, France",
-                    "description": "Development of a data platform on a fully sovereign cloud.",
-                    "skills": "Terraform"
+                    "description": "Development of a data platform on a fully sovereign cloud.<br>Development of a Python script integrated into Databricks to scan Azure storage accounts, compute folder sizes, and generate automated structured reports.",
+                    "skills": "Terraform, Python, Clever cloud, Azure"
                 }
             },
             {
@@ -408,7 +407,7 @@
                     "qualification": "International semester",
                     "period": "September 2025 – February 2026",
                     "location": "Padoue, Italie",
-                    "description": "",
+                    "description": "Courses attended:<br>Innovation, Entrepreneurship and Finance<br>Advanced Text Analytics<br>Foundations of Databases<br>Italian Lab<br>Cognitive, Behavioral and Social Data",
                     "skills": ""
                 }
             },
