@@ -58,7 +58,8 @@
                     "company": "accure",
                     "period": "Avril 2025 – Août 2025",
                     "location": "Paris, France",
-                    "description": "Construction d'une plateforme data sur un cloud 100% souverain.<br>Développement d’un script Python intégré à Databricks pour analyser les comptes de stockage Azure, calculer la taille des dossiers et générer des rapports structurés automatisés."
+                    "description": "Construction d'une plateforme data sur un cloud 100% souverain.<br>Développement d’un script Python intégré à Databricks pour analyser les comptes de stockage Azure, calculer la taille des dossiers et générer des rapports structurés automatisés.",
+                    "skills": "Terraform, Python, Clever cloud, Azure"
                 }
             },
             {
@@ -146,7 +147,7 @@
                     "period": "Septembre 2023 – Janvier 2024",
                     "location": "Varna, Bulgarie",
                     "description": "Cours suivis :<br>Data Structures And Algorithms II<br>Computational Intelligence<br>Research Methods for Computing and IS<br>Economics",
-                    "skills": ""
+                    "skills": "C#, Machine Learning, Concepts de base de l'économie"
                 }
             }
         ],
@@ -416,7 +417,7 @@
                     "link": "https://vum.bg/",
                     "img": {
                         "src": "assets/img/logo-vum.png",
-                        "alt": "Varna University of ManagementLogo"
+                        "alt": "Varna University of Management Logo"
                     }
                 },
                 "details": {
@@ -425,7 +426,7 @@
                     "period": "September 2023 – January 2024",
                     "location": "Varna, Bulgarie",
                     "description": "Courses attended :<br>Data Structures And Algorithms II<br>Computational Intelligence<br>Research Methods for Computing and IS<br>Economics",
-                    "skills": ""
+                    "skills": "C#, Machine Learning, Economics basics"
                 }
             }
         ],
