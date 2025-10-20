@@ -42,7 +42,7 @@
         },
         "cvButton": "CV",
         "portfolioButton": "Portfolio",
-        "about": "Animée par le sport depuis toujours, j’en apprécie autant la pratique que les valeurs qu’il véhicule. Depuis deux ans, je m’y consacre de manière plus intensive, ce qui a confirmé mon choix de m’orienter professionnellement vers ce domaine en adéquation avec mon profil et mes aspirations.<br><br>Je suis actuellement en dernière année d'école d’ingénieur, avec pour objectif d'allier mes compétences techniques avec ma passion du sport. C’est pourquoi je suis à la recherche d’un <strong>stage de fin d’études, de février à août 2026, dans le domaine de l’analyse de données appliquée au sport.</strong><br><br>Idéalement, je souhaiterais participer au suivi de la performance des athlètes, à l'optimisation de leur préparation physique, ainsi qu'à l'ajustement de la récupération. Les données offrant aujourd’hui une réelle plus-value aux sciences du sport, je souhaite les exploiter dans des projets concrets visant à améliorer à la fois la performance et le bien-être des sportifs.",
+        "about": "Actuellement en dernière année d’école d’ingénieur généraliste, avec une orientation cloud et un solide socle en data, je recherche un <strong>stage de fin d’études de 6 mois à partir de février 2026 en analyse de données</strong>.<br><br>Passionnée par le sport, j’aimerais idéalement allier mes compétences techniques à cette passion, en participant à des projets autour du suivi de performance ou de la préparation physique.<br><br>Ouverte à d’autres domaines, je cherche à approfondir mes compétences en data tout en participant à des projets concrets et stimulants.",
         "experienceSectionTitle": "Expériences professionnelles",
         "experiences": [
             {
@@ -321,7 +321,7 @@
         },
         "cvButton": "Resume",
         "portfolioButton": "Portfolio",
-        "about": "Passionate about sports for as long as I can remember, I value both its practice and the values it conveys. Over the past two years, I have dedicated myself to it more intensively, which confirmed my choice to pursue a professional path aligned with both my profile and aspirations.<br><br>I am currently in my final year of engineering school, with the goal of combining my technical skills with my passion for sports. This is why I am looking for a <strong>graduation internship, from February to August 2026, in the field of data analysis applied to sports.</strong><br><br>Ideally, I would like to contribute to monitoring athlete performance, optimizing physical preparation, and refining recovery strategies. As data now provides real added value to sports science, I aim to use it in concrete projects that enhance both performance and athlete well-being.",
+        "about": "Currently in my final year of a general engineering program, with a focus on cloud and a strong foundation in data, I am seeking a <strong>6-month final-year internship in data analysis, starting in February 2026</strong>.<br><br>Passionate about sports, I would ideally like to combine my technical skills with this interest by contributing to projects related to performance tracking or physical training optimization.<br><br>Open to other fields, I am eager to deepen my data skills while working on concrete and challenging projects.",
         "experienceSectionTitle": "Experience",
         "experiences": [
             {
